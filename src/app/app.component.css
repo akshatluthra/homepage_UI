@@ -1,0 +1,60 @@
+.main-heading{
+    font-size: 45px;
+}
+.second-section{
+    margin: 25px 0 25px 0;
+}
+
+img{
+    border-radius: 5%;
+}
+
+h1{
+    font-size: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+p a{
+    text-decoration: none;
+    color:#004fa9;
+}
+p a:hover{
+    color: #0075ff;
+}
+
+.fifth-section{
+    background:  rgb(214, 224, 242);
+    padding: 50px 0 50px 0;
+}
+
+/* Other Services Section CSS */
+
+.other-services{
+    margin: 4rem 0 4rem 0;
+}
+
+.Icon{
+    font-size: 44px;
+    line-height: 88px;
+    height: 88px;
+    width: 88px;
+    color: #0075ff;
+    background-color: #f4f6f9;
+    border-radius: 20px;
+    padding: 25px 20px 20px 20px;
+    display: flex;
+    align-self: center;
+}
+
+.secondIcon, .thirdIcon{
+    padding-left: 24px;
+}
+
+.learn-btn{
+    text-decoration: none;
+    color: #004fa9;
+    font-weight: bold;
+}
+.learn-btn:hover{
+    opacity: 0.5;
+}

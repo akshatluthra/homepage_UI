@@ -1,0 +1,39 @@
+.footer-section{
+    background:#f4f6f9;
+    padding: 4rem 0 4rem 0;
+}
+
+div span{
+    display: block;
+}
+h5{
+    line-height: 1.21cm;
+}
+span a{
+    color: #212934;
+    font-size: 18px;
+    line-height: 1.21cm;
+    text-decoration: none;
+}
+div span:hover, .active{
+    border-bottom: 2px solid #f86011;
+}
+/*bottom footer*/
+.copyright-section{
+    padding: 2rem 0;
+}
+p{
+    font-size: 15px;
+    line-height: 0.8cm;
+}
+.social-icons span{
+    display: inline;
+    margin-right: 15px;
+}
+fa-icon{
+    font-size: 20px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}

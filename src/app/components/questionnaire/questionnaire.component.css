@@ -1,0 +1,32 @@
+:root{
+    --bs-accordion-btn-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z'/></svg>");
+}
+.questionnaire-section{
+    background: #f4f6f9;
+    padding: 50px 0 50px 0 ;
+}
+.accordion-button{
+    background: #f4f6f9;
+    color: #004fa9;
+    font-weight: bold;
+    font-size: 22px;
+    cursor:default;
+    border: none;
+}
+.accordion-button:hover{
+    color: black;
+}
+.accordion-button::after{
+    background-image: url("../../../assets/plus.png");
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("../../../assets/minus-sign.png");
+}
+.accordion-body{
+    background: #f4f6f9;
+} 
+/* h2{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+} */
+

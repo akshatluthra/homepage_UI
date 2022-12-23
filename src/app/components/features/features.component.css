@@ -1,0 +1,49 @@
+.feature-section{
+    margin: 70px 0 10px 0;
+}
+
+.feature{
+    background: #f4f6f9;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.f-1, .f-6, .f-5{
+    padding-bottom: 2rem;
+}
+.f-2,.f-3,.f-4{
+    padding-bottom: 4rem;
+}
+.f-7{
+    margin-left: 225px;
+}
+.f-8{
+    margin-right: 225px;
+}
+
+fa-icon{
+    font-size: 44px;
+    line-height: 88px;
+    height: 88px;
+    width: 88px;
+    color: #0075ff;
+    background-color: #d6e0f2;
+    border-radius: 20px;
+    
+    display: flex;
+    align-self: center;
+}
+.f-i, .fif-i, .si-i, .e-i{
+    padding: 25px 15px 20px 20px;
+}
+
+.se-i, .fo-i {
+    padding: 25px 0 20px 15px;
+}
+.t-i{
+    padding: 25px 5px 20px 30px;
+}
+.sev-i{
+    padding: 25px 5px 20px 25px;
+}

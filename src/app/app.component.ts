@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {faGlobeAmericas, faCalendarAlt, faPenSquare, faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'homepage_UI';
+  globe = faGlobeAmericas;
+  calendar = faCalendarAlt;
+  edit = faPenSquare;
+  arrow = faArrowRight;
 }
